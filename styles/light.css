@@ -1,0 +1,630 @@
+/*
+
+Page Rules
+
+*/
+
+
+body {
+    background-color: var(--light-color-3);
+    color: var(--dark-color-3);
+}
+
+
+/*
+
+Content Grid
+
+*/
+
+
+/*
+Main Content Area
+*/
+
+article.main-article {
+    background: var(--light-color-1);
+}
+
+article.post-preview a, article.post-preview a:hover {
+    color: var(--dark-color-3);
+}
+
+/* Post Properties */
+
+header.post-header {
+    border-bottom: 2px solid var(--light-color-3);
+}
+
+div.post-description {
+    background: var(--light-color-3);
+    color: var(--dark-color-3);
+}
+
+footer.post-footer {
+    border-top: 2px solid var(--light-color-3);
+}
+
+/*
+Sidebars
+*/
+
+section.sidebar-section {
+    background: var(--light-color-1);
+}
+
+
+/*
+
+Textual Elements
+
+*/
+
+
+/*
+Block Elements
+*/
+
+h2, h3, h4, h5, h6 {
+    color: var(--dark-color-3);
+}
+
+hr {
+    border: 1px solid var(--light-color-3);
+}
+
+dl {
+    color: var(--dark-color-3);
+}
+
+details > summary {
+    background: var(--light-color-3);
+    color: var(--dark-color-3);
+}
+
+blockquote {
+    border-left: 4px solid var(--lavender-color-2);
+    background: var(--light-color-3);
+    color: var(--dark-color-3);
+}
+
+pre {
+    background: var(--light-color-3);
+    color: var(--dark-color-3);
+}
+
+pre.keyboard-input {
+    border-left: 4px solid var(--blue-color-2);
+}
+
+pre.code-block {
+    border-left: 4px solid var(--orange-color-2);
+}
+
+pre.sample-output {
+    border-left: 4px solid var(--pink-color-2);
+}
+
+/*
+Custom Block Elements
+*/
+
+/* Alerts */
+
+div.alert {
+    background: var(--light-color-3);
+    color: var(--dark-color-3);
+}
+
+.alert-title {
+    color: var(--dark-color-3);
+}
+
+button.dismiss-button {
+    color: var(--dark-color-3);
+}
+
+div.alert-secondary {
+    background: var(--dark-color-3);
+    color: var(--light-color-3);
+}
+
+div.alert-secondary .alert-title {
+    color: var(--light-color-3);
+}
+
+div.alert-secondary button.dismiss-button {
+    color: var(--light-color-3);
+}
+
+div.alert-info {
+    background: var(--cyan-color-2);
+    color: var(--dark-color-3);
+}
+
+div.alert-success {
+    background: var(--green-color-2);
+    color: var(--dark-color-3);
+}
+
+div.alert-caution {
+    background: var(--yellow-color-2);
+    color: var(--dark-color-3);
+}
+
+div.alert-warning {
+    background: var(--orange-color-2);
+    color: var(--dark-color-3);
+}
+
+div.alert-danger {
+    background: var(--red-color-2);
+    color: var(--dark-color-3);
+}
+
+/* Cards */
+
+div.card {
+    background: var(--light-color-3);
+    color: var(--dark-color-3);
+}
+
+.card-title {
+    color: var(--dark-color-3);
+}
+
+div.card-body {
+    border-top: 1px solid var(--gray-color-2);
+}
+
+div.card-secondary {
+    background: var(--dark-color-3);
+    color: var(--light-color-3);
+}
+
+div.card-secondary .card-title {
+    color: var(--light-color-3);
+}
+
+div.card-secondary div.card-body {
+    border-top: 1px solid var(--gray-color-1);
+}
+
+div.card-info {
+    background: var(--cyan-color-2);
+    color: var(--dark-color-3);
+}
+
+div.card-success {
+    background: var(--green-color-2);
+    color: var(--dark-color-3);
+}
+
+div.card-caution {
+    background: var(--yellow-color-2);
+    color: var(--dark-color-3);
+}
+
+div.card-warning {
+    background: var(--orange-color-2);
+    color: var(--dark-color-3);
+}
+
+div.card-danger {
+    background: var(--red-color-2);
+    color: var(--dark-color-3);
+}
+
+/*
+Inline Elements
+*/
+
+mark {
+    background: var(--yellow-color-1);
+    color: var(--dark-color-3);
+}
+
+ins {
+    background: var(--green-color-1);
+    color: var(--dark-color-3);
+}
+
+del {
+    background: var(--red-color-1);
+    color: var(--dark-color-3);
+}
+
+u {
+    text-decoration: var(--red-color-2) wavy underline;
+}
+
+time {
+    text-decoration: var(--dark-color-3) dotted underline;
+}
+
+abbr {
+    text-decoration: var(--dark-color-3) dotted underline;
+}
+
+a {
+    color: var(--cyan-color-2);
+}
+
+a:hover {
+    color: var(--cyan-color-3);
+}
+
+q {
+    color: var(--lavender-color-3);
+}
+
+kbd {
+    color: var(--blue-color-3);
+}
+
+code {
+    color: var(--orange-color-3);
+}
+
+samp {
+    color: var(--pink-color-3);
+}
+
+/*
+Custom Inline Elements
+*/
+
+/* Badges */
+
+span.badge {
+    background: var(--light-color-3);
+    color: var(--dark-color-3);
+}
+
+span.badge-secondary {
+    background: var(--dark-color-3);
+    color: var(--light-color-3);
+}
+
+span.badge-info {
+    background: var(--cyan-color-2);
+    color: var(--dark-color-3);
+}
+
+span.badge-success {
+    background: var(--green-color-2);
+    color: var(--dark-color-3);
+}
+
+span.badge-caution {
+    background: var(--yellow-color-2);
+    color: var(--dark-color-3);
+}
+
+span.badge-warning {
+    background: var(--orange-color-2);
+    color: var(--dark-color-3);
+}
+
+span.badge-danger {
+    background: var(--red-color-2);
+    color: var(--dark-color-3);
+}
+
+
+/*
+
+Images
+
+*/
+
+figure {
+    background: var(--light-color-3);
+    color: var(--dark-color-3);
+}
+
+
+/*
+
+Forms
+
+*/
+
+
+fieldset {
+    border: 2px solid var(--light-color-3);
+}
+
+legend {
+    border: 2px solid var(--light-color-3);
+    color: var(--dark-color-3);
+}
+
+/*
+Textual Inputs
+*/
+
+input[type=date], input[type=datetime-local], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=text], input[type=time], input[type=tel], input[type=url], input[type=week]  {
+    border-color: var(--cyan-color-2);
+    background: var(--light-color-3);
+    color: var(--dark-color-3);
+}
+
+input[type=date]:focus, input[type=datetime-local]:focus, input[type=email]:focus, input[type=month]:focus, input[type=number]:focus, input[type=password]:focus, input[type=search]:focus, input[type=text]:focus, input[type=time]:focus, input[type=tel]:focus, input[type=url]:focus, input[type=week]:focus {
+    border-color: var(--cyan-color-3);
+}
+
+input[type=date]:read-only, input[type=datetime-local]:read-only, input[type=email]:read-only, input[type=month]:read-only, input[type=number]:read-only, input[type=password]:read-only, input[type=search]:read-only, input[type=text]:read-only, input[type=time]:read-only, input[type=tel]:read-only, input[type=url]:read-only, input[type=week]:read-only {
+    border-color: var(--cyan-color-3);
+}
+
+input[type=date]:disabled, input[type=datetime-local]:disabled, input[type=email]:disabled, input[type=month]:disabled, input[type=number]:disabled, input[type=password]:disabled, input[type=search]:disabled, input[type=text]:disabled, input[type=time]:disabled, input[type=tel]:disabled, input[type=url]:disabled, input[type=week]:disabled {
+    border-color: var(--cyan-color-3);
+    background: var(--light-color-2);
+}
+
+input:invalid {
+    border-color: var(--red-color-2);
+}
+
+textarea {
+    border-color: var(--cyan-color-2);
+    background: var(--light-color-3);
+    color: var(--dark-color-3);
+}
+
+textarea:focus {
+    border-color: var(--cyan-color-3);
+}
+
+textarea:read-only {
+    border-color: var(--cyan-color-3);
+}
+
+textarea:disabled {
+    border-color: var(--cyan-color-3);
+    background: var(--light-color-2);
+}
+
+::placeholder {
+    color: var(--gray-color-2);
+}
+
+/*
+Clickable Inputs
+*/
+
+/* Buttons */
+
+input[type=button], input[type=reset], input[type=submit] {
+    background: var(--light-color-3);
+    color: var(--dark-color-3);
+}
+
+input[type=button].button-secondary, input[type=reset].button-secondary, input[type=submit].button-secondary {
+    background: var(--dark-color-3);
+    color: var(--light-color-3);
+}
+
+input[type=button].button-info, input[type=reset].button-info, input[type=submit].button-info {
+    background: var(--cyan-color-2);
+}
+
+input[type=button].button-success, input[type=reset].button-success, input[type=submit].button-success {
+    background: var(--green-color-2);
+}
+
+input[type=button].button-caution, input[type=reset].button-caution, input[type=submit].button-caution {
+    background: var(--yellow-color-2);
+}
+
+input[type=button].button-warning, input[type=reset].button-warning, input[type=submit].button-warning {
+    background: var(--orange-color-2);
+}
+
+input[type=button].button-danger, input[type=reset].button-danger, input[type=submit].button-danger {
+    background: var(--red-color-2);
+}
+
+input[type=button]:active, input[type=reset]:active, input[type=submit]:active {
+    background: var(--light-color-4);
+}
+
+input[type=button].button-secondary:active, input[type=reset].button-secondary:active, input[type=submit].button-secondary:active {
+    background: var(--dark-color-4);
+}
+
+input[type=button].button-info:active, input[type=reset].button-info:active, input[type=submit].button-info:active {
+    background: var(--cyan-color-3);
+}
+
+input[type=button].button-success:active, input[type=reset].button-success:active, input[type=submit].button-success:active {
+    background: var(--green-color-3);
+}
+
+input[type=button].button-caution:active, input[type=reset].button-caution:active, input[type=submit].button-caution:active {
+    background: var(--yellow-color-3);
+}
+
+input[type=button].button-warning:active, input[type=reset].button-warning:active, input[type=submit].button-warning:active {
+    background: var(--orange-color-3);
+}
+
+input[type=button].button-danger:active, input[type=reset].button-danger:active, input[type=submit].button-danger:active {
+    background: var(--red-color-3);
+}
+
+input[type=button]:disabled, input[type=reset]:disabled, input[type=submit]:disabled {
+    background: var(--light-color-4);
+    color: var(--dark-color-3);
+}
+
+input[type=button].button-secondary:disabled, input[type=reset].button-secondary:disabled, input[type=submit].button-secondary:disabled {
+    background: var(--dark-color-2);
+    color: var(--light-color-4);
+}
+
+input[type=button].button-info:disabled, input[type=reset].button-info:disabled, input[type=submit].button-info:disabled {
+    background: var(--cyan-color-3);
+    color: var(--dark-color-3);
+}
+
+input[type=button].button-success:disabled, input[type=reset].button-success:disabled, input[type=submit].button-success:disabled {
+    background: var(--green-color-3);
+    color: var(--dark-color-3);
+}
+
+input[type=button].button-caution:disabled, input[type=reset].button-caution:disabled, input[type=submit].button-caution:disabled {
+    background: var(--yellow-color-3);
+    color: var(--dark-color-3);
+}
+
+input[type=button].button-warning:disabled, input[type=reset].button-warning:disabled, input[type=submit].button-warning:disabled {
+    background: var(--orange-color-3);
+    color: var(--dark-color-3);
+}
+
+input[type=button].button-danger:disabled, input[type=reset].button-danger:disabled, input[type=submit].button-danger:disabled {
+    background: var(--red-color-3);
+    color: var(--dark-color-3);
+}
+
+button {
+    background: var(--light-color-3);
+    color: var(--dark-color-3);
+}
+
+button.button-secondary {
+    background: var(--dark-color-3);
+    color: var(--light-color-3);
+}
+
+button.button-info {
+    background: var(--cyan-color-2);
+}
+
+button.button-success {
+    background: var(--green-color-2);
+}
+
+button.button-caution {
+    background: var(--yellow-color-2);
+}
+
+button.button-warning {
+    background: var(--orange-color-2);
+}
+
+button.button-danger {
+    background: var(--red-color-2);
+}
+
+button:active {
+    background: var(--light-color-4);
+}
+
+button.button-secondary:active {
+    background: var(--dark-color-4);
+}
+
+button.button-info:active {
+    background: var(--cyan-color-3);
+}
+
+button.button-success:active {
+    background: var(--green-color-3);
+}
+
+button.button-caution:active {
+    background: var(--yellow-color-3);
+}
+
+button.button-warning:active {
+    background: var(--orange-color-3);
+}
+
+button.button-danger:active {
+    background: var(--red-color-3);
+}
+
+button:disabled {
+    background: var(--light-color-4);
+    color: var(--dark-color-3);
+}
+
+button.button-secondary:disabled {
+    background: var(--dark-color-2);
+    color: var(--light-color-4);
+}
+
+button.button-info:disabled {
+    background: var(--cyan-color-3);
+    color: var(--dark-color-3);
+}
+
+button.button-success:disabled {
+    background: var(--green-color-3);
+    color: var(--dark-color-3);
+}
+
+button.button-caution:disabled {
+    background: var(--yellow-color-3);
+    color: var(--dark-color-3);
+}
+
+button.button-warning:disabled {
+    background: var(--orange-color-3);
+    color: var(--dark-color-3);
+}
+
+button.button-danger:disabled {
+    background: var(--red-color-3);
+    color: var(--dark-color-3);
+}
+
+/* Selectors */
+
+
+input[type=color], input[type=file] {
+    background: var(--light-color-3);
+    color: var(--dark-color-3);
+}
+
+input[type=color]:disabled, input[type=file]:disabled {
+    background: var(--light-color-2);
+}
+
+
+
+/*
+
+Tables/Data Representation
+
+*/
+
+
+table {
+    border-left: 4px solid var(--yellow-color-2);
+    background: var(--light-color-2);
+    color: var(--dark-color-3);
+}
+
+thead, tfoot, col.col-head, col.col-foot {
+    background: var(--light-color-3);
+}
+
+td, th {
+    border: 1px solid var(--light-color-3);
+}
+
+
+/*
+
+Misc
+
+*/
+
+
+embed, object, iframe, canvas {
+  border: 2px solid var(--light-color-3);
+}
