@@ -2,8 +2,6 @@
 
 Stratum is a simple but gorgeous website template written in HTML, CSS, and JavaScript.
 
-Check out [the demo](https://dev.j3kennard.com/theme-stratum) to see it in action!
-
 
 ## Screenshots
 
