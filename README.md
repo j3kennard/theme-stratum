@@ -2,6 +2,8 @@
 
 Stratum is a simple but gorgeous website template written in HTML, CSS, and JavaScript.
 
+A demo is available at https://dev.j3kennard.com/theme-stratum
+
 Light Mode (Home):
 
 ![Light mode screenshot](https://github.com/j3kennard/theme-stratum/blob/main/images/screenshot-light.jpg)
