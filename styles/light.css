@@ -32,17 +32,9 @@ article.post-preview a, article.post-preview a:hover {
 
 /* Post Properties */
 
-header.post-header {
-    border-bottom: 2px solid var(--light-color-3);
-}
-
 div.post-description {
     background: var(--light-color-3);
     color: var(--dark-color-3);
-}
-
-footer.post-footer {
-    border-top: 2px solid var(--light-color-3);
 }
 
 /*

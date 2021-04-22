@@ -1,20 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta name="robots" content="noindex, nofollow, nosnippet">
-
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/icons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/icons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/icons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="images/icons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/icons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="images/icons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/icons/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="images/icons/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="images/icons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="images/icons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="images/icons/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="images/icons/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="images/icons/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="images/icons/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="images/icons/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="images/icons/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="images/icons/mstile-310x310.png" />
 
     <link rel="stylesheet" type="text/css" href="styles/main.css">
     <link rel="stylesheet" type="text/css" href="styles/dark.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://code.cdn.mozilla.net/fonts/fira.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
 
     <title>Feed (Sidebar Left) | Stratum</title>
-    <meta name="description" content="Stratum is a simple flat website theme.">
-    <meta name="keywords" content="stratum, simple, flat, theme">
 </head>
 
 <body>
@@ -23,18 +40,18 @@
             Many site features aren't working because you have JavaScript disabled!
         </div>
     </noscript>
+
     <header id="page-header">
         <div class="navbar">
             <nav class="navbar-elements">
                 <div class="navbar-brand">
-                    <a href="home-dark.html"><img class="navbar-logo" src="images/Logo_White-Tr_256.png"></a>
-                    <a class="navbar-title" href="home-dark.html">Stratum Theme</a>
+                    <a href="landing-dark.html"><img class="navbar-logo" src="images/Logo_White-Tr_256.png"></a>
+                    <a class="navbar-title" href="landing-dark.html">Stratum Theme</a>
                 </div>
                 <div class="navbar-toggler">
                     <span class="navbar-toggle-button"><i class="fas fa-bars"></i></span>
                 </div>
                 <div class="navbar-items">
-                    <a class="navbar-item" href="elements-dark.html">Elements</a>
                     <div class="navbar-dropdown">
                         <a class="navbar-item">Feeds <i class="fa fa-caret-down"></i></a>
                         <div class="navbar-dropdown-content">
@@ -51,31 +68,38 @@
                             <a class="navbar-item" href="post-sr-dark.html">Sidebar Right</a>
                         </div>
                     </div>
-                    <a class="navbar-item navbar-item-button" href="feed-sl-light.html" title="Click to turn on the lights"><i class="fas fa-lightbulb"></i></a>
+                    <a class="navbar-item navbar-item-button" href="feed-sl-light.html" title="Click to turn off the lights"><i class="fas fa-lightbulb"></i></a>
                 </div>
             </nav>
         </div>
     </header>
+
     <div class="content-grid">
         <main class="sidebar">
+            <header class="feed-header" style="background: url('images/aleks-dahlberg-b7DzEp2lsRI-unsplash.jpg') no-repeat center; background-position: absolute; background-size: cover; color: var(--light-color-1);">
+                <h1>Feed (Sidebar Left)</h1>
+                <div class="feed-tagline">A dynamic list of pages</div>
+            </header>
             <article class="main-article post-preview">
                 <header class="post-preview-header">
                     <a class="post-preview-link" href="post-fw-dark.html">
                         <h2 style="margin-top: 0;">Post (Full Width)</h2>
                     </a>
                     <div class="post-details">
-                        <b>Jeremy Kennard</b> • 1970-01-01 00:00
+                        <b>Jeremy Kennard</b>
+                        <br>
+                        1970-01-01 12:00
                     </div>
                 </header>
                 <section class="post-preview-summary">
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
                     <a class="post-preview-link" href="post-fw-dark.html">
-                        <button>Full Post →</button>
+                        <button>View Post →</button>
                     </a>
                 </section>
                 <section class="post-preview-image">
                     <a class="post-preview-link" href="post-fw-dark.html">
-                        <img class="size-fw" src="images/erik-mclean-1vjYvrwR4ks-unsplash.jpg" alt="Brown and Green Rock Formation">
+                        <img class="size-fw" src="images/erik-mclean-1vjYvrwR4ks-unsplash.jpg">
                     </a>
                 </section>
             </article>
@@ -85,18 +109,20 @@
                         <h2 style="margin-top: 0;">Post (Sidebar Left)</h2>
                     </a>
                     <div class="post-details">
-                        <b>Jeremy Kennard</b> • 1970-01-01 00:00
+                        <b>Jeremy Kennard</b>
+                        <br>
+                        1970-01-01 12:00
                     </div>
                 </header>
                 <section class="post-preview-summary">
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
                     <a class="post-preview-link" href="post-sl-dark.html">
-                        <button>Full Post →</button>
+                        <button>View Post →</button>
                     </a>
                 </section>
                 <section class="post-preview-image">
                     <a class="post-preview-link" href="post-sl-dark.html">
-                        <img class="size-fw" src="images/erik-mclean-1vjYvrwR4ks-unsplash.jpg" alt="Brown and Green Rock Formation">
+                        <img class="size-fw" src="images/erik-mclean-1vjYvrwR4ks-unsplash.jpg">
                     </a>
                 </section>
             </article>
@@ -106,41 +132,43 @@
                         <h2 style="margin-top: 0;">Post (Sidebar Right)</h2>
                     </a>
                     <div class="post-details">
-                        <b>Jeremy Kennard</b> • 1970-01-01 00:00
+                        <b>Jeremy Kennard</b>
+                        <br>
+                        1970-01-01 12:00
                     </div>
                 </header>
                 <section class="post-preview-summary">
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
                     <a class="post-preview-link" href="post-sr-dark.html">
-                        <button>Full Post →</button>
+                        <button>View Post →</button>
                     </a>
                 </section>
                 <section class="post-preview-image">
                     <a class="post-preview-link" href="post-sr-dark.html">
-                        <img class="size-fw" src="images/erik-mclean-1vjYvrwR4ks-unsplash.jpg" alt="Brown and Green Rock Formation">
+                        <img class="size-fw" src="images/erik-mclean-1vjYvrwR4ks-unsplash.jpg">
                     </a>
                 </section>
             </article>
         </main>
+
         <aside class="sidebar-left">
             <section class="sidebar-section">
                 <h3>Related Content</h3>
                 <ol>
-                    <li><a href="#">Post 1</a></li>
-                    <li><a href="#">Post 2</a></li>
-                    <li><a href="#">Post 3</a></li>
-                    <li><a href="#">Post 4</a></li>
-                    <li><a href="#">Post 5</a></li>
+                    <li><a href="post-fw-dark.html">Post (Full Width)</a></li>
+                    <li><a href="post-sl-dark.html">Post (Sidebar Left)</a></li>
+                    <li><a href="post-sr-dark.html">Post (Sidebar Right)</a></li>
                 </ol>
             </section>
             <section class="sidebar-section">
-                <h3>More Sidebar Content</h3>
+                <h3>More Content</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
             </section>
         </aside>
     </div>
+
     <footer id="page-footer">
         <div id="page-footer-sections">
             <section class="page-footer-section">
@@ -173,8 +201,11 @@
         </div>
         <section id="page-footer-copyright">
             <p>© <span id="copyright-year"></span> Jeremy Kennard. All rights reserved.</p>
+            <p><small>Made with <i class="fa fa-heart"></i> using <a href="https://github.com/j3kennard/theme-stratum">Stratum</a>.</small></p>
         </section>
     </footer>
+
     <script src="scripts/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
 </body>
 </html>

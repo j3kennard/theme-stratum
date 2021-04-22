@@ -11,10 +11,10 @@ Page Rules
     --dark-color-3: #12192e;
     --dark-color-4: #000000;
 
-    --gray-color-1: #CCCCCC;
+    --gray-color-1: #cccccc;
     --gray-color-2: #333333;
 
-    --light-color-1: #FFFFFF;
+    --light-color-1: #ffffff;
     --light-color-2: #faf9f5;
     --light-color-3: #f5f3eb;
     --light-color-4: #a8a7a2;
@@ -273,6 +273,7 @@ Content Grid
 div.content-grid {
     flex: 1 0 auto;
     margin: auto;
+    width: 100%;
     max-width: 1536px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -328,7 +329,8 @@ h1.landing-title {
     text-transform: uppercase;
 }
 
-.landing-tagline {
+div.landing-tagline {
+    font-size: 20px;
     font-weight: 200;
 }
 
@@ -345,6 +347,10 @@ main.full-width article.main-article {
     padding: 32px 128px;
 }
 
+main.full-width header.feed-header {
+    padding: 16px 128px;
+}
+
 main.sidebar {
     grid-column-start: span 9;
 }
@@ -353,9 +359,29 @@ main.sidebar article.main-article {
     padding: 32px 64px;
 }
 
+main.sidebar header.feed-header {
+    padding: 16px 64px;
+}
+
 article.main-article {
     margin-bottom: 8px;
 }
+
+/* Feed Properties */
+
+header.feed-header {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+div.feed-tagline {
+    margin-top: -16px;
+    margin-bottom: 32px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+/* Post Preview Properties */
 
 article.post-preview {
     display: grid;
@@ -380,11 +406,6 @@ section.post-preview-image {
 
 /* Post Properties */
 
-header.post-header {
-    margin-bottom: 32px;
-    padding-bottom: 32px;
-}
-
 div.post-description {
     margin: -16px -16px 16px -16px;
     border-radius: 8px;
@@ -394,11 +415,6 @@ div.post-description {
 div.post-details {
     margin: 16px 0 0 0;
     font-size: 18px;
-}
-
-footer.post-footer {
-    margin-top: 32px;
-    padding-top: 32px;
 }
 
 /*
@@ -445,6 +461,9 @@ section.sidebar-section {
 @media all and (max-width: 1024px) {
     div.content-grid {
         padding-bottom: 0;
+    }
+    main.full-width header.feed-header, main.sidebar header.feed-header {
+        padding: 32px 64px;
     }
     main.full-width article.main-article {
         padding: 32px 64px;
@@ -506,6 +525,9 @@ section.sidebar-section {
 
 /* If the window is 512px or less in width */
 @media all and (max-width: 512px) {
+    main.full-width header.feed-header, main.sidebar header.feed-header {
+        padding: 32px;
+    }
     main.full-width article.main-article, main.sidebar article.main-article {
         padding: 32px;
     }
@@ -720,14 +742,6 @@ blockquote {
 
 blockquote > p {
     margin: 0;
-}
-
-blockquote > p:before {
-    content: open-quote;
-}
-
-blockquote > p:after {
-    content: close-quote;
 }
 
 footer.blockquote-footer {
