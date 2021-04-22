@@ -2,8 +2,11 @@
 
 Stratum is a simple but powerful website theme written in HTML, CSS, and JavaScript.
 
-Official CMS themes:
--Grav: [repo](https://github.com/j3kennard/grav-theme-stratum/)
+
+## CMS Themes:
+
+Grav:
+- [GitHub](https://github.com/j3kennard/grav-theme-stratum/)
 
 
 ## Screenshots
