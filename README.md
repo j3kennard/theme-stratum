@@ -43,4 +43,4 @@ For major changes, please [open an issue](https://github.com/j3kennard/theme_str
 
 ## License
 
-Stratum is licensed under [GNU AGPLv3](https://choosealicense.com/licenses/agpl-3.0/).
+Stratum is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
