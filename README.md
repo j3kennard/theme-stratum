@@ -1,5 +1,7 @@
 <p align="center"><img src="https://github.com/j3kennard/theme-stratum/blob/main/images/readme-banner.png" alt="Stratum banner"></p>
 
+<br>
+
 ## Introduction
 
 Stratum is a simple but versatile website theme written in HTML, CSS, and JavaScript. This project came about when I decided that I wanted to test my front-end skills by coding a website theme from scratch. I think it's turned out to be pretty decent!
