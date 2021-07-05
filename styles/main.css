@@ -55,6 +55,7 @@ Page Rules
 html {
     height: 100%;
     overflow-y: scroll;
+    background-color: var(--dark-color-1);
 }
 
 body {
