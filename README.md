@@ -6,7 +6,7 @@
 
 Stratum is a simple but versatile website theme written in HTML, CSS, and JavaScript. This project came about when I decided that I wanted to test my front-end skills by coding a website theme from scratch. I think it's turned out to be pretty decent!
 
-The theme is currently available in flat-file format and as a [Grav](https://getgrav.org) theme. Visit Stratum's [Grav theme repository](https://github.com/j3kennard/grav-theme-stratum/) to revamp your Grav site's look and feel!
+The theme is currently available in flat-file format and as a [Grav](https://getgrav.org) theme. Visit Stratum's [Grav theme repository](https://github.com/j3kennard/grav-theme-stratum) to revamp your Grav site's look and feel!
 
 <br>
 
@@ -43,4 +43,4 @@ For major changes, please [open an issue](https://github.com/j3kennard/theme-str
 
 ## License
 
-Stratum is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
+Stratum is licensed under the [MIT License](https://choosealicense.com/licenses/mit).
