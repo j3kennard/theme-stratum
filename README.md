@@ -37,7 +37,7 @@ Dark Mode (Landing):
 
 I appreciate any contribution you wish to make, whether it is related to bugs, grammar, or some other type of suggestion! Pull requests, therefore, are welcome.
 
-For major changes, please [open an issue](https://github.com/j3kennard/theme_stratum/issues/new) first to discuss what you would like to change.
+For major changes, please [open an issue](https://github.com/j3kennard/theme-stratum/issues/new) first to discuss what you would like to change.
 
 <br>
 
