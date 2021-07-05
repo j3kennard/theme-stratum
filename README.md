@@ -1,30 +1,44 @@
-# Stratum
+<p align="center"><img src="https://github.com/j3kennard/theme-stratum/blob/main/images/readme-banner.png" alt="Stratum banner"></p>
 
-Stratum is a simple but powerful website theme written in HTML, CSS, and JavaScript.
+## Introduction
 
+Stratum is a simple but versatile website theme written in HTML, CSS, and JavaScript. This project came about when I decided that I wanted to test my front-end skills by coding a website theme from scratch. I think it's turned out to be pretty decent!
 
-## CMS Themes:
+The theme is currently available in flat-file format and as a [Grav](https://getgrav.org) theme. Visit Stratum's [Grav theme repository](https://github.com/j3kennard/grav-theme-stratum/) to revamp your Grav site's look and feel!
 
-Grav:
-- [GitHub](https://github.com/j3kennard/grav-theme-stratum/)
+<br>
 
+## Installation
+
+It's as easy as downloading or cloning the repository into your web root:
+
+```
+$ cd /var/www
+$ git clone https://github.com/j3kennard/theme-stratum.git
+```
+
+<br>
 
 ## Screenshots
 
 Light Mode (Landing):
 
-![Light mode screenshot](https://github.com/j3kennard/theme-stratum/blob/main/images/screenshot-light.png)
+<img src="https://github.com/j3kennard/theme-stratum/blob/main/images/screenshot-light.png" alt="Light mode screenshot" width="512px">
 
 Dark Mode (Landing):
 
-![Dark mode screenshot](https://github.com/j3kennard/theme-stratum/blob/main/images/screenshot-dark.png)
+<img src="https://github.com/j3kennard/theme-stratum/blob/main/images/screenshot-dark.png" alt="Dark mode screenshot" width="512px">
 
+<br>
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+I appreciate any contribution you wish to make, whether it is related to bugs, grammar, or some other type of suggestion! Pull requests, therefore, are welcome.
 
+For major changes, please [open an issue](https://github.com/j3kennard/theme_stratum/issues/new) first to discuss what you would like to change.
+
+<br>
 
 ## License
 
-[GNU AGPLv3](https://choosealicense.com/licenses/agpl-3.0/)
+Stratum is licensed under [GNU AGPLv3](https://choosealicense.com/licenses/agpl-3.0/).
